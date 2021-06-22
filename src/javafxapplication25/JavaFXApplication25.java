@@ -36,6 +36,7 @@ import tornadofx.control.DateTimePicker;
  */
 public class JavaFXApplication25 extends Application {
     
+    //ovo je novi commit 2
     @Override
     public void start(Stage primaryStage) {
         Button btn = new Button();
