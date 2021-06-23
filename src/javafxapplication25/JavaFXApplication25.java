@@ -28,7 +28,6 @@ import javafx.stage.Stage;
 import javafx.util.StringConverter;
 import javax.management.remote.rmi._RMIConnection_Stub;
 import pac.controls.FlexTextField;
-import tornadofx.control.DateTimePicker;
 
 /**
  *
@@ -36,7 +35,7 @@ import tornadofx.control.DateTimePicker;
  */
 public class JavaFXApplication25 extends Application {
     
-    //ovo je novi commit 2
+    //ovo je novi commit 3
     @Override
     public void start(Stage primaryStage) {
         Button btn = new Button();
@@ -101,8 +100,8 @@ public class JavaFXApplication25 extends Application {
 //        
 //        tf.getText();
         
-        DateTimePicker cf = new DateTimePicker();
-        cf.setFormat("dd.MM.yyyy HH:mm");
+//        DateTimePicker cf = new DateTimePicker();
+//        cf.setFormat("dd.MM.yyyy HH:mm");
         
 //        cf.setConverter(new StringConverter<LocalDate>(){
 //            private DateTimeFormatter dateTimeFormatter=DateTimeFormatter.ofPattern("dd.MM.yyyy HH:MM");
@@ -124,7 +123,7 @@ public class JavaFXApplication25 extends Application {
         
 
         VBox root = new VBox();
-        root.getChildren().addAll(btn,cf);
+        root.getChildren().addAll(btn);
         
         Scene scene = new Scene(root, 300, 250);
         
